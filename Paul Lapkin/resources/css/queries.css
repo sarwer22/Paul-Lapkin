@@ -1,0 +1,80 @@
+
+@media screen and (max-width: 1200px) {
+    .row {
+        width: 100%;
+        padding: 0 30px;
+    }
+    
+    .close_btn ion-icon {
+        top: 16px;
+	    right: 30px;
+}
+    .hero_text_box {
+        width: 100%;
+    } 
+    .gird_portfolio_container {
+	grid-auto-rows: auto;
+}
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .grid_about_container {
+	
+	grid-template-columns: 1fr;
+	text-align: center;
+}
+    .paul {
+	width: 70%;	
+}
+    .grid_process_container {
+	grid-template-columns: 1fr 1fr;
+}
+    .gird_portfolio_container {
+	grid-template-columns: 1fr 1fr;
+}
+    .grid_portfolio_items:nth-child(5) {
+	grid-column: 1/2;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .paul {
+	width: 75%;
+}
+    .grid_experience_container {
+	grid-template-columns: 1fr;
+}
+    .grid_contact_container {
+		grid-template-columns: 1fr;
+}
+    .description {
+	width: 100%;
+}
+    
+}
+
+@media screen and (max-width: 480px) {
+    html,
+    body {
+    font-size: 8px;
+    }
+    .paul {
+	width: 100%;
+}
+    .grid_process_container,
+    .gird_portfolio_container,
+    .grid-testimonial-container{
+	grid-template-columns: 1fr;
+}
+    
+    #testimonial {
+	background: #cb12dbb0;
+}
+    h1 {
+	font-size: 590%;
+	}
+    .hero_text_box span {
+	font-size: 190%;
+	}    
+}
